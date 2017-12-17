@@ -4,21 +4,21 @@
   <meta charset="UTF-8">
   </script>
   <link rel="stylesheet" href="CSS/style.css">
+  
   <title>Space Invader</title>
 </head>
 <body>
   <div id="pantalla-inicio">
     <div align="center"><img src="images/silogo.png" alt="si_logo"></div>
-
+    <div align="center"><button id="btn-start">Start</button></div>
   </div>
   <div id="scoreBoard">
-        <div align="center"><div id="playerScore">Score: <span id="scoreJS">0 </span> <span>Time: <span id="timeDown">0</span></span></div>
+        <div align="center"><div id="playerScore">Score: <span id="scoreJS">0</span></div>
         </div>
       </div>
 
-  <!-- Subir el botón y meterlo dentro del div con ID #pantalla-inicio -->
   <div id="pantalla-juego">
-    <div align="center"><button id="btn-start">Start</button></div>
+
   <canvas id="board"></canvas>
   </div>
 
